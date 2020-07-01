@@ -8,8 +8,9 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/common.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- <link rel="stylesheet" href="./css/common.css" /> -->
+    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
   <body>
@@ -51,7 +52,7 @@
 
     <main>
       <!-- Герой -->
-      <section class="section hero">
+      <section class="hero section">
         <h1 class="hero-title">
           эффективные решения <br />
           для вашего бизнеса
@@ -61,16 +62,16 @@
           <div class="modal">
             <form class="form js-speaker-form">
               <button class="close" data-modal-close>
-                <svg class="icon-close">
+                <svg class="close-icon">
                   <use href="./images/symbol-defs_2.svg#close"></use>
                 </svg>
               </button>
               <h2 class="modal-title">Оставьте свои данные, мы вам перезвоним</h2>
         
               <label class="form-field">
-                <input type="text" class="form-input" name="name" placeholder=" ">
-                <span class="form-label">Имя</span>
-                <span class="form-icon">
+                <input type="text" class="form-field input" name="name" placeholder=" ">
+                <span class="form-field label">Имя</span>
+                <span class="form-field icon">
                   <svg class="icon">
                     <use href="./images/symbol-defs_2.svg#person"></use>
                   </svg>
@@ -78,9 +79,9 @@
               </label>
         
               <label class="form-field">
-                <input type="tel" class="form-input" name="tel" placeholder=" ">
-                <span class="form-label">Телефон</span>
-                <span class="form-icon">
+                <input type="tel" class="form-field input" name="tel" placeholder=" ">
+                <span class="form-field label">Телефон</span>
+                <span class="form-field icon">
                   <svg class="icon">
                     <use href="./images/symbol-defs_2.svg#phone-black"></use>
                   </svg>
@@ -88,21 +89,21 @@
               </label>
         
               <label class="form-field">
-                <input type="email" class="form-input" name="mail" placeholder=" ">
-                <span class="form-label">Почта</span>
-                <span class="form-icon">
+                <input type="email" class="form-field input" name="mail" placeholder=" ">
+                <span class="form-field label">Почта</span>
+                <span class="form-field icon">
                   <svg class="icon">
                     <use href="./images/symbol-defs_2.svg#email-black"></use>
                   </svg>
                 </span>
               </label>
         
-              <label class="form-field comment">
-                <textarea class="input-comment" name="comment" placeholder=" "></textarea>
-                <span class="label-comment">Комментарий</span>
+              <label class="comment form-field">
+                <textarea class="comment input" name="comment" placeholder=" "></textarea>
+                <span class="comment label">Комментарий</span>
               </label>
         
-              <label class="form-checkbox">
+              <label class="checkbox-form">
                 <input class="checkbox" type="checkbox" name="policy" value="policy">
                 <span class="checkbox-icon"></span>
                 <span>
@@ -212,7 +213,7 @@
           <ul class="team list">
             <li class="item">
               <img class="img" src="./images/John.jpg" alt="" width="270" />
-              <h3 class="title">John Smith</h3>
+              <h3 class="title">Николай Кучеренко</h3>
               <p class="text">
                 Product Designer
               </p>
@@ -250,7 +251,7 @@
 
             <li class="item">
               <img class="img" src="./images/Marta.jpg" alt="" width="270" />
-              <h3 class="title">Marta Stewart</h3>
+              <h3 class="title">Ольга Иванова</h3>
               <p class="text">
                 Frontend Developer
               </p>
@@ -288,7 +289,7 @@
 
             <li class="item">
               <img class="img" src="./images/Robert.jpg" alt="" width="270" />
-              <h3 class="title">Robert Jakis</h3>
+              <h3 class="title">Андрей Шевченко</h3>
               <p class="text">
                 Marketing
               </p>
@@ -326,7 +327,7 @@
 
             <li class="item">
               <img class="img" src="./images/Martin.jpg" alt="" width="270" />
-              <h3 class="title">Martin Doe</h3>
+              <h3 class="title">Иван Николаев</h3>
               <p class="text">
                 UI Designer
               </p>
@@ -435,7 +436,7 @@
         </div>
 
         <div class="footer-title">
-          <p class="join">
+          <p class="footer-join">
             присоединяйтесь
           </p>
           <ul class="footer-main list">
@@ -471,11 +472,11 @@
         </div>
 
         <div class="footer subscript">          
-          <p class="join">
+          <p class="footer-join">
             Подпишитесь на рассылку
           </p>
-          <input class="footer-form" type="email" name="mail" placeholder="E-mail">
-          <button class="button-form">Подписаться</button>
+          <input class="form-footer" type="email" name="mail" placeholder="E-mail">
+          <button class="form-button">Подписаться</button>
           <span class="footer-icon">
             <svg class="icon">
               <use href="./images/symbol-defs_2.svg#send"></use>

@@ -28,6 +28,14 @@ body {
   padding-right: 15px;
   width: 1170px;
 }
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
 
 /* Шапка сайта */
 
@@ -54,17 +62,6 @@ body {
 }
 .logo-blue {
   color: var(--accent-color);
-}
-.logo-white {
-  color: var(--primary-white-color);
-}
-.list {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-.link {
-  text-decoration: none;
 }
 
 /* Навигация */
@@ -189,7 +186,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
 }
-.join {
+.footer-join {
   margin-top: 0;
   margin-bottom: 20px;
   text-transform: uppercase;
@@ -218,7 +215,7 @@ body {
   line-height: 1.14;
 }
 
-.footer-form {
+.form-footer {
   bottom: 0;
   left: 0;
   width: 358px;
@@ -241,7 +238,7 @@ body {
   background-color: var(--background-footer-color);
 }
 
-.button-form {
+.form-button {
   display: inline-flex;
   width: 200px;
   height: 50px;

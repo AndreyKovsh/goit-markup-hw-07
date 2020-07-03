@@ -8,9 +8,9 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/common.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./css/main.min.css" />
+    <!-- <link rel="stylesheet" href="./css/common.css" /> -->
+    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
+    <link rel="stylesheet" href="./css/profile.min.css" />
   </head>
   <body>
     <!-- Шапка сайта-->
@@ -239,7 +239,7 @@
         </div>
 
         <div class="footer-title">
-          <p class="join">
+          <p class="footer-join">
             присоединяйтесь
           </p>
           <ul class="footer-main list">
@@ -274,11 +274,23 @@
           </ul>
         </div>
 
-        <div class="footer subscript">
-          <p class="join">
+        <form class="footer subscript">
+          <p class="footer-join">
             Подпишитесь на рассылку
           </p>
-        </div>
+          <input
+            class="form-footer"
+            type="email"
+            name="mail"
+            placeholder="E-mail"
+          />
+          <button class="form-button">Подписаться</button>
+          <span class="footer-icon">
+            <svg class="icon">
+              <use href="./images/symbol-defs_2.svg#send"></use>
+            </svg>
+          </span>
+        </form>
       </div>
       <div class="ps">
         <p class="text">2020 | Developed by GoIT Students</p>
